@@ -1,37 +1,38 @@
-/* Los estilos de tu proyecto */
 
+ 
+/*Se estableces imagenes, colores y caracteristicas del texto del documento*/
 
-#info{
+#info {
     background-color: #FFB700;
 }
-
-#img-1{
-      background-image: url("../assets/images/taxi.jpg");
-      width:100%;
-      height:100vh ;
-      background-size: cover;
-      background-position: bottom;
-      margin:0;
+/*imagen de fondo primera seccion*/
+#img-1 {
+    background-image: url("../assets/images/taxi.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
 }
 
-#cont-img{
-    padding:0;
+#cont-img {
+    padding: 0;
 }
 
-.col-md-4{
+/*Estilizando cajas con texto y botones*/
+.col-md-4 {
     margin-top: 3em;
-    padding-bottom:6em;
+    padding-bottom: 6em;
     padding-top: 3em;
     padding-left: 4em;
-    
 }
-.col-md-4 h3,p {
-    
-    color:white;
+
+.col-md-4 h1,
+h3,
+p {
+    color: white;
     text-align: justify;
     line-height: 2em;
-    
-} 
+}
 
 .col-md-5 {
     background-color: #FFB700;
@@ -54,7 +55,6 @@
 
 #box-1 h2 {
     color: white;
-    
 }
 
 #box-1 p {
@@ -79,81 +79,143 @@
     height: 1.5em;
     margin-left: 10px;
 }
-
-#image-2{
+/*Imagen de fondo tercera sección*/
+#image-2 {
     background-image: url("../assets/images/conduce.jpg");
-    width:100%;
-    height:70vh;
+    width: 100%;
+    height: 70vh;
     background-size: cover;
     background-position: 100% 45%;
 }
 
-#driver h3, h5{
-    color:white;
+#driver h3,
+h5 {
+    color: white;
 }
-
-#driver{
-    
+/*Degradado y caracteristicas de la caja de texto y botón*/
+#driver {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 6em;
+    padding-bottom: 14.5em;
+    margin-top: 0;
 }
-
-#rate{
+/*Cuarta sección, se estilizan inputs y se da formato a contenedor del mapa*/
+#rate {
     background-color: #FFB700;
     padding-bottom: 6em;
-
 }
 
-.thumbnail{
-   background-color: #FFB700;
-   
+.thumbnail {
+    background-color: #FFB700;
 }
 
-#mapa{
-    width:100%;
+#mapa {
+    width: 100%;
 }
 
-#box-map{
-    margin-top:4em;
-    margin-left:5em;
+#box-map {
+    margin-top: 4em;
+    margin-left: 5em;
 }
 
-#box-rate{
-    margin-top: 2em;
-    color:white;
+#box-rate {
+    margin-top: 4em;
+    color: white;
 }
 
 .input-group {
     margin-bottom: 2em;
-    
 }
 
 .form-control,
- {
+{
     background-color: #FFB700;
-    border:none;
-}
-.input-group-addon{
-    background-color: #FFB700;
-    border:1px solid white;
-    border-radius: 6px;
+    border: none;
 }
 
-#foo{
+.input-group-addon {
+    background-color: #FFB700;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+/*Pie de página*/
+#foo {
     background-color: #2F2F2F;
-    padding-top: 4em;
+    padding-top: 5em;
+    border-bottom: 1px solid white;
 }
 
 .list-group-item {
-    border:none;
-    background-color:#2F2F2F;
-    color:white;
+    border: none;
+    background-color: #2F2F2F;
+    color: white;
+    cursor: pointer;
 }
 
-#icons{
-
-    color:white;
-    margin-top:23em;
+.list-group-item:hover {
+    color: #FFB700;
 }
 
-#links{
-    margin-top:15em;
+
+/*Estilizando Clases visibles y ocultas*/
+
+#txthdn h5,
+h4,
+h2 {
+    color: white;
+}
+
+#texthdn h2 {
+    margin:
+}
+
+#logo-sm {
+    width: 2em;
+    height: 0.5em;
+    margin-left: 0.8em;
+}
+
+#bycar{
+    background-color:#FFB700;
+     
+}
+
+#bycar button {
+    margin-top: 5em;
+}
+
+#l-1 {
+    float: right;
+    margin-top: 2em;
+}
+
+#icons span {
+    color: white;
+    margin-right: 5px;
+    margin-top: 10em;
+    cursor: pointer;
+}
+
+#icons span:active {
+    color: #FFB700;
+}
+
+#icons-2 {
+    color: white;
+    margin-bottom: 5em;
+}
+
+#icons-2 span {
+    margin-right: 3px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+#icons-2 span:active {
+    color: #FFB700;
+}
+
+#app {
+    margin-bottom: 2em;
+    cursor: pointer;
 }
